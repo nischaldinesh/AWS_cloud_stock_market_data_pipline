@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a **real-time stock market data pipeline** using **AWS services**, following an **event-driven ELT (Extract, Load, Transform) architecture**. The pipeline collects, processes, and analyzes stock market data efficiently, ensuring **scalability, reliability, and real-time insights**.
+This project implements a **real-time stock market data pipeline** using **AWS services**, following an **event-driven ELT (Extract, Load, Transform) architecture**. The workflow is orchestrated using **AWS Step Functions**, which **automate the data processing pipeline on a weekly schedule**. The pipeline **collects, processes, and analyzes stock market data** efficiently, ensuring **scalability, reliability, and real-time insights**.
 
 ---
 
