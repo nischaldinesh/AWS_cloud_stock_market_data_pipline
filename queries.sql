@@ -1,4 +1,4 @@
-// Top 5 Lossess
+// This SQL query identifies the top 5 stocks with the highest losses by calculating the percentage change between their opening and closing prices for a given week.
 
 WITH opening_prices AS (  SELECT ticker, price AS opening_price,         
  ROW_NUMBER() OVER (PARTITION BY ticker ORDER BY updated ASC) AS rn   
@@ -13,7 +13,7 @@ WITH opening_prices AS (  SELECT ticker, price AS opening_price,
  AND ((c.closing_price - o.opening_price) / o.opening_price) < 0 ORDER BY weekly_loss ASC LIMIT 5
 
 
- // Top 5 Gainers
+ // This SQL query identifies the top 5 stocks with the highest gainers by calculating the percentage change between their opening and closing prices for a given week.
 
  WITH opening_prices AS (  SELECT ticker, price AS opening_price,          
  ROW_NUMBER() OVER (PARTITION BY ticker ORDER BY updated ASC) AS rn   

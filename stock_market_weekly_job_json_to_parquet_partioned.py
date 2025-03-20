@@ -1,4 +1,4 @@
-# Glue Pyhton Script
+# Glue Python Script
 
 import sys
 import boto3

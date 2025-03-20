@@ -1,3 +1,4 @@
+#AWS Lambda function generates the SQL queries to calculate the top 5 weekly gainers and losers in the stock market.
 import json
 import datetime
 from zoneinfo import ZoneInfo  

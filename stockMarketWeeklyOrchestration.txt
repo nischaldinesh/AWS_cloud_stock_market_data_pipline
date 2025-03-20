@@ -1,7 +1,5 @@
 // Step Function Code
 
-
-
 {
   "Comment": "StockMarketWeeklyOrchestration: Pipeline to partition data, refresh Athena metadata, dynamically generate aggregated queries (gain and loss) for the current week, run the queries in parallel, and send notifications.",
   "StartAt": "RunGlueJob",

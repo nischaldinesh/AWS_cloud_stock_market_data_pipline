@@ -1,3 +1,4 @@
+#AWS Lambda function to fetch stock data from API-Ninjas and store in S3 bucket.
 import json
 import boto3
 import requests

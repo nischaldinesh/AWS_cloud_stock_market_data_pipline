@@ -1,3 +1,4 @@
+#AWS Lambda function to transform stock market data.
 import json
 import boto3
 import datetime
@@ -43,10 +44,9 @@ def transform_data(json_data, price_type):
 
 def lambda_handler(event, context):
     """AWS Lambda function to transform stock market data."""
-    source_key = None  # Declare variable at the beginning
+    source_key = None  
 
     try:
-        # Validate event structure
         if 'Records' not in event or not event['Records']:
             raise ValueError("Event structure is incorrect or missing 'Records'.")
 
