@@ -1,9 +1,5 @@
 # 📈 Real-Time Stock Market Data Pipeline & Analysis
 
-**AWS Event-Driven ELT Architecture & Orchestration**
-
----
-
 ## Overview
 
 This project implements a **real-time stock market data pipeline** using **AWS services**, following an **event-driven ELT (Extract, Load, Transform) architecture**. The pipeline collects, processes, and analyzes stock market data efficiently, ensuring **scalability, reliability, and real-time insights**.
@@ -31,5 +27,3 @@ This project implements a **real-time stock market data pipeline** using **AWS s
 For a **detailed breakdown of this project**, check out my LinkedIn post:
 
 🔗 **[LinkedIn Post: Real-Time Stock Market Data Pipeline](https://www.linkedin.com/posts/thenischald_end-to-end-stock-market-data-pipeline-activity-7296333629570375681-wk6Q?utm_source=share&utm_medium=member_desktop&rcm=ACoAADfIHK0Bvh1lWE2y3w0SQ4guTIHdj0yEDk4)**
-
-
